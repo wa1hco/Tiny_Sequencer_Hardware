@@ -4264,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 105.41) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f61361-2660-471a-8706-e45f13319c32")
+	)
+	(wire
+		(pts
 			(xy 110.49 177.8) (xy 102.87 177.8)
 		)
 		(stroke
@@ -4494,6 +4504,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f94e653-44ac-4cbf-8203-5c78805e679b")
+	)
+	(wire
+		(pts
 			(xy 212.09 113.03) (xy 223.52 113.03)
 		)
 		(stroke
@@ -4504,7 +4524,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 110.49 96.52)
+			(xy 99.06 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5154,6 +5174,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 96.52) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97d7d2e-bada-43bf-9c76-57e3ed1de0c0")
+	)
+	(wire
+		(pts
 			(xy 182.88 106.68) (xy 182.88 113.03)
 		)
 		(stroke
@@ -5578,28 +5608,6 @@
 			(justify left bottom)
 		)
 		(uuid "dfcfa311-8047-4df3-be23-1797c270c3f8")
-	)
-	(label "RST\\"
-		(at 63.5 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3c724cc-c205-4ce6-90b0-6eb034b8b2b8")
-	)
-	(label "VCCIO"
-		(at 81.28 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e46f4866-1592-4805-b9ff-a3468cf21b69")
 	)
 	(label "D-M"
 		(at 62.23 165.1 0)
@@ -6640,6 +6648,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 121.92 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3251096c-c1ef-4181-be4e-f63f0438872b")
+		(property "Reference" "D9"
+			(at 118.11 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 126.238 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c6fd51b-3866-4205-9809-cbe8c37caf9b")
+		)
+		(pin "1"
+			(uuid "5a087c72-f8c3-4d26-b4e3-0f8afba3404f")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/3f7e4896-a5a1-43ac-9348-16f0feb459b4"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:IR26-21C_L110_TR8")
 		(at 204.47 147.32 180)
 		(unit 1)
@@ -6709,6 +6784,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 121.92 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ccb7a24-ca65-4e8d-adfb-c6b66738faad")
+		(property "Reference" "#PWR027"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc9405e1-f106-4d19-8866-8f879e43ac64")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/3f7e4896-a5a1-43ac-9348-16f0feb459b4"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 20.32 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6769,6 +6911,74 @@
 			(project "Sequencer"
 				(path "/3f7e4896-a5a1-43ac-9348-16f0feb459b4"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 115.57 96.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "427edf23-ef88-4c39-be2c-6aa2d9d1c048")
+		(property "Reference" "R17"
+			(at 114.046 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 118.364 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.824 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6fe286-55fe-488f-ad40-580555b82ea1")
+		)
+		(pin "2"
+			(uuid "5b1bc2a8-080e-461f-adf4-4899c6b6092f")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/3f7e4896-a5a1-43ac-9348-16f0feb459b4"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10227,7 +10437,7 @@
 				)
 			)
 		)
-		(property "Value" "IR26-21C_L110_TR8"
+		(property "Value" "SEQ3"
 			(at 206.0575 123.19 0)
 			(effects
 				(font

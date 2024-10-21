@@ -472,7 +472,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/12V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -480,7 +485,7 @@
       "idf": "",
       "netlist": "",
       "plot": "/home/jeff/kicad/Tiny_Sequencer_Hardware/",
-      "pos_files": "",
+      "pos_files": "/home/jeff/kicad/Tiny_Sequencer_Hardware/JCLPCB.pos.csv/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

@@ -1,0 +1,25 @@
+Comment,Designator,Footprint,LCSC,Quantity,Description
+47p,"C1,C5",C_0603_1608Metric,C1671,2,50V 47pF C0G ±5% 0603 Multilayer Ceramic Capacitors
+6.8u,C2,C_0603_1608Metric,C338096,1,10V 6.8uF  X5R ±10% 0603 Multilayer Ceramic Capacitors
+.1u,"C3,C4,C6,C7,C8,C9",C_0603_1608Metric,C14663,5,50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors
+0.33u,C4,C_0603_1608Metric,C292682,,50V 330nF X7R ±10% 0603 Multilayer Ceramic Capacitors 
+Red,"D1,D2,D3,D4",LED_0603_1608Metric,C2286,4,-40℃~+85℃ Red 0603 LED Indication
+D_Schottky,D10,D_0603_1608Metric,C143772,1,40V 450mV@200mA 200mA 0603 Schottky Diodes
+MM3Z3V6,"D11,D12,D5",D_SOD-323,C891617,3,Independent Type 3.42V~3.78V 200mW 3.6V SOD-323FL Zener Diodes
+Green,"D6,D7,D8,D9",LED_0603_1608Metric,C965806,4,20mA 240mcd 565nm~575nm -20℃~+85℃ Positive Stick Yellow Green 120° 50mW 2.4V 0603 LED
+FerriteBead_Small,FB1,L_0805_2012Metric,C1017,1,300mΩ ±25% 600Ω@100MHz 0805 Ferrite Beads
+Screw_Terminal_01x12,J1,TerminalBlock_TE_1-282834-2_1x12_P2.54mm_Horizontal,C5188451,1,Copper Alloy 1x12P Tin 2.54mm 1 1 12 6A -40℃~+105℃ 150V Green 18~24
+Header 1x3,J2,PinHeader_1x03_P2.54mm_Vertical,C6332196,1,Gold 250V 3A 2.54mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single
+USB-C 2.0 16P,J3,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,C2988369,1,USB 2.0 3A 1 Horizontal attachment 16P Female -40℃~+85℃ Gold Type-C
+Conn_01x08_Pin,J4,PinHeader_1x08_P2.54mm_Vertical,C18078205,1,Gold 1kV 3A 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single Row 1x8PPin Headers
+1K5,"R1,R2,R3,R4",R_0603_1608Metric,C22843,4,100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1.5kΩ 0603 Chip Resistor
+1K5,"R5,R6,R7,R8",R_0603_1608Metric,C23193,4,100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 510Ω 0603 Chip Resistor
+1K,"R10,R11,R12,R15,R16,R17,R20",R_0603_1608Metric,C21190,7,100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0603 Chip Resistor
+27R,"R13,R14,R18,R19",R_0603_1608Metric,C25190,2,100mW Thick Film Resistors 75V ±1% ±200ppm/℃ 27Ω 0603 Chip Resistor
+5K1,"R18, R19",R_0603_1608Metric,C23186,2,100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 5.1kΩ 0603 Chip Resistor
+2K2,R9,R_0603_1608Metric,C4190,1,100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 2.2kΩ 0603 Chip Resistor
+GAQY212G2S,"U2,U3,U4,U5",SO-4_4.4x3.9mm_P2.54mm,C7435109,4,1 Form A(SPST-NO) 1.2V 60V 68mΩ 1.8A SOP-4 Solid State Relays (MOS Output)
+MC78L05_SOT89,U6,SOT-89-3,C71136,1,100mA Fixed 5V Positive electrode 30V SOT-89-3 Voltage Regulators
+FT230XS,U7,SSOP-16_3.9x4.9mm_P0.635mm,C69082,1,USB to UART UART SSOP-16-150mil USB Converters
+TLP185,U8,SOIC-4_4.55x3.7mm_P2.54mm,C17695768,1,"3.75kV 50mA 1 1.25V SOIC-4-175mil Transistor, Photovoltaic Output Optoisolators"
+ATtiny1616-M,U9,VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,C507118,1,16KB 1.8V~5.5V AVR 2KB 20MHz FLASH 18 QFN-20-EP(3x3) Microcontrollers
